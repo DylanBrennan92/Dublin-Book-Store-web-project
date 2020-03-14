@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+	<title>Dublin Books</title>
+	<meta charset ="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/styles.css"/>
+	<link rel="icon" href="images/icons/stackofbooks.ico"/>
+	<script src="js/bookOrder.js"></script>
+</head>
+<body>
+<!--[if lt IE 9]>
+	<div class="alert alert-warning" role="alert">
+		You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.
+	</div>
+<![endif]-->
+
+<div id="wrapper" class="bookwrapper">
+<!--Wrapping page content in a wrapper with 68% width -->
+<nav>
+	<a href="index.html"><img id="bookslogo" src="images/dublinbookslogo1.png" alt="A logo image with books"></a>
+		<ul id="mainNav">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="newReleases.html">New Releases</a></li>
+			<li><a href="membership.html">Membership</a></li>
+			<li><a href="events.html">Events</a></li>
+		</ul>
+		<div class="dropdownmenu">
+		<img src="images/icons/menu.png" alt="menu icon" id="menuicon">
+		<ul>
+			<li id="firstli"><a href="index.html">Home</a></li>
+			<li><a href="newReleases.html">New Releases</a></li>
+			<li><a href="membership.html">Membership</a></li>
+			<li><a href="events.html">Events</a></li>
+		</ul>
+		<!--Nav Icon made by https://www.flaticon.com/authors/robin-kylander title="Robin Kylander">Robin Kylander</a> from <a href="https://www.flaticon.com/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"
+		title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a> -->
+		</div>
+		<form>
+			<input type="text" id="search">
+			<input type="image" id="searchicon" src="images/icons/search1.png" alt="search icon">
+		</form>
+</nav><!-- End of the nav bar -->
+
+	<h1>Beren and Luthien - €12.99</h1>
+	<img src="images/bookimages/bestsellers/berenandluthien.jpg" id="bookPage"
+	alt="Beren and Luthien Book cover" title="Beren and Luthien">
+
+<div id="order">
+	<a href=""><img src="images/icons/ordernow.png" id="ordernow"
+	alt="Order now" title="Click here to place your order" onclick="bookOrder()"></a>
+	<input type="number" name="quantity" id="qtyOrdered" value="1">
+	<p class="delivery">Order before 6pm for next day delivery</p>
+	<p id="userTotal"></p>
+</div>
+<div class="booksynopsis">
+	<h2>Synopsis</h2>
+	<p>In this book Christopher Tolkien has attempted to extract the story of Beren and Lúthien from the comprehensive work in which it was embedded;
+	but that story was itself changing as it developed new associations within the larger history. To show something of the process whereby this legend of Middle-earth
+	evolved over the years, he has told the story in his father's own words by giving, first, its original form, and then passages in prose and verse from later texts
+	that illustrate the narrative as it changed. Presented together for the first time, they reveal aspects of the story, both in event and in narrative immediacy, that were afterwards lost.</p>
+</div>
+<div class="reviews">
+	<h2>Reviews</h2>
+		<p>4/5 Stars - The Guardian</p>
+		<p>3/5 Stars - The Independent</p>
+		<p>4/5 Stars - The Irish Times</p>
+		<p>3/5 Stars - The Irish Times</p>
+</div>
+<div class="relatedbooks">
+	<h1>Related Books</h1>
+
+<div class="polaroid3" id="firstPolaroid">
+		<a href="#" title="The peoples of Middle Earth"><img src="images/bookimages/authorbooks/thepeoplesofmiddleearth.jpg" class="firstimg" alt="The people of middle earth book cover"></a>
+		<div class="container3">
+			<a href="#"><p class="imgPara3">The peoples of Middle Earth - €12.99</p></a>
+		</div>
+	</div>
+	<div class="polaroid3">
+		<a href="#" title="The Two Towers"><img src="images/bookimages/authorbooks/thetwotowers.jpg" alt="The Two towers book cover"></a>
+		<div class="container3">
+			<a href="#"><p class="imgPara3">The Two Towers - €15.99</p></a>
+		</div>
+	</div>
+	<div class="polaroid3">
+		<a href="#" title="The Fall of Gondolin"><img src="images/bookimages/authorbooks/thefallofgondolin.jpg" alt="The Fall of Gondolin earth book cover"></a>
+		<div class="container3">
+			<a href="#"><p class="imgPara3">The Fall of Gondolin - €8.99</p></a>
+		</div>
+	</div>
+</div>
+</div><!--End of wrapper div-->
+<footer>
+	<div id="social">
+	<ul id="socialul">
+		<li><a href="https://www.facebook.com"><img id="firstsocial" src="images/social/facebook.jpg"
+		alt="facebook social media icon"></a></li>
+		<li><a href="https://www.instagram.com"><img src="images/social/instagram.jpg"
+		alt="instagram social media icon"></a></li>
+		<li><a href="https://www.twitter.com"><img src="images/social/twitter.jpg"
+		alt="twitter social media icon"></a></li>
+	</ul>
+</div>
+	<div id="copyright">
+		<p> &#9400;Dublin Books Ltd</p>
+	</div>
+	<div id="contact">
+		<a href="mailto:brennandylan1992@gmail.com?Subject=Book" target="_top"><img src="images/mailicon.png" alt="Email icon"></a>
+		<h4>Contact us</h4>
+	</div>
+</footer>
+</body>
+</html>
